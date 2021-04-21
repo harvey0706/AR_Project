@@ -31,6 +31,7 @@ public class LineUtils {
      * @param clamp
      * @return
      */
+    //rrrr
     public static float map(float value, float inputMin, float inputMax, float outputMin, float outputMax, boolean clamp) {
             float outVal = ((value - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin);
 
